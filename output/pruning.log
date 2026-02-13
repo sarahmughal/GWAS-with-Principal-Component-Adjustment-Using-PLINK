@@ -1,0 +1,51 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile ../data/homework
+  --indep-pairwise 50 5 0.2
+  --maf 0.05
+  --out ../output/pruning
+
+Hostname: Sarahs-MacBook-Air-3.local
+Working directory: /Users/sarahmughal/Desktop/assign5/scripts
+Start time: Fri Feb 13 12:18:17 2026
+
+Random number seed: 1771013897
+8192 MB RAM detected; reserving 4096 MB for main workspace.
+700000 variants loaded from .bim file.
+10000 people (10000 males, 0 females) loaded from .fam.
+10000 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 10000 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+24 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+699976 variants and 10000 people pass filters and QC.
+Phenotype data is quantitative.
+Pruned 46736 variants from chromosome 1, leaving 14066.
+Pruned 45136 variants from chromosome 2, leaving 13724.
+Pruned 37374 variants from chromosome 3, leaving 11269.
+Pruned 35747 variants from chromosome 4, leaving 10707.
+Pruned 33852 variants from chromosome 5, leaving 10169.
+Pruned 31945 variants from chromosome 6, leaving 9645.
+Pruned 29788 variants from chromosome 7, leaving 8884.
+Pruned 27288 variants from chromosome 8, leaving 8221.
+Pruned 26305 variants from chromosome 9, leaving 7988.
+Pruned 25245 variants from chromosome 10, leaving 7589.
+Pruned 25220 variants from chromosome 11, leaving 7614.
+Pruned 24860 variants from chromosome 12, leaving 7487.
+Pruned 21536 variants from chromosome 13, leaving 6434.
+Pruned 20000 variants from chromosome 14, leaving 6022.
+Pruned 19018 variants from chromosome 15, leaving 5788.
+Pruned 16804 variants from chromosome 16, leaving 5084.
+Pruned 15137 variants from chromosome 17, leaving 4564.
+Pruned 14594 variants from chromosome 18, leaving 4376.
+Pruned 11019 variants from chromosome 19, leaving 3331.
+Pruned 11766 variants from chromosome 20, leaving 3556.
+Pruned 8954 variants from chromosome 21, leaving 2720.
+Pruned 9502 variants from chromosome 22, leaving 2912.
+Pruning complete.  537826 of 699976 variants removed.
+Marker lists written to ../output/pruning.prune.in and
+../output/pruning.prune.out .
+
+End time: Fri Feb 13 12:18:23 2026
