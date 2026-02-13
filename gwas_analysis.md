@@ -1,12 +1,3 @@
----
-title: "GWAS Analysis Utilizing PLINK & R"
-author: "Sarah Mughal"
-format:
-  markdown
-execute:
-  echo: true
----
-
 1. Load R Libraries
 ```{r}
 library(data.table)
