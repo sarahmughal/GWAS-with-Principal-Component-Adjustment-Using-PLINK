@@ -66,7 +66,7 @@ system("../software/plink --bfile ../data/homework --hardy --out ../output/stats
 hwe <- fread("../output/stats_hwe.hwe")
 ```
 
-# TODO: Create a histogram of the P-Values
+TODO: Create a histogram of the P-Values
 ```{r}
 ggplot(hwe, aes(x = P)) +
   geom_histogram(bins = 50) +
