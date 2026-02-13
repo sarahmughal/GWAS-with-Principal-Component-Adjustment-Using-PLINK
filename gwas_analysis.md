@@ -2,9 +2,7 @@
 title: "GWAS Analysis Utilizing PLINK & R"
 author: "Sarah Mughal"
 format:
-  html:
-    toc: true
-    number-sections: true
+  markdown
 execute:
   echo: true
 ---
